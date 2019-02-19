@@ -1,0 +1,67 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-color: #575757;
+  color: #e8e7e3;
+  background-color: #17181c;
+}
+
+input,
+textarea {
+  background-color: #17181c;
+  border-color: #575757;
+  color: #e8e7e3;
+}
+
+#wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 99%;
+  margin: 0.5em auto auto auto;
+}
+
+#me,
+#chat,
+#pesho {
+  display: flex;
+}
+
+hr {
+  width: 100%;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border-color: rgb(85, 85, 85);
+}
+
+#me,
+#pesho {
+  width: 30%;
+  height: 10%;
+}
+
+input {
+  width: 100%;
+}
+
+#chat {
+  flex-direction: column;
+  width: 35%;
+  text-align: center;
+}
+
+.myDiv {
+  text-align: left;
+}
+
+.peshoDiv {
+  text-align: right;
+}
